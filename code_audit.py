@@ -287,6 +287,6 @@ class ExtensionSecurityAuditor:
                     print(f"Error closing the browser: {str(e)}")
 
 if __name__ == "__main__":
-    extension_path = "/Users/gayatri/Desktop/ext_auditor/eimadpbcbfnmbkopoojfekhnkhdbieeh"# extension id
+    extension_path = "/Users/gayatri/Desktop/ext_auditor/eimadpbcbfnmbkopoojfekhnkhdbieeh" #extension id change you want to audit on extension
     auditor = ExtensionSecurityAuditor(extension_path)
     auditor.run_full_audit()
